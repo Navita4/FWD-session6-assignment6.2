@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+  <!-- bind these values from variables title , firstname and lastname -->
+
+  <h1>{{title}}</h1>
+  <form role="form" autocomplete="off">
+    <div class="form-group">
+      <label for="FirstName">FirstName</label><br />
+      <input type="text"  [value]="FirstName" class="form-control" id="FirstName" placeholder="FirstName"><br />
+    </div>
+    <div class="form-group">
+        <label for="LastName">LastName</label><br />
+        <input type="text"  [value]="LastName" class="form-control" id="LastName" placeholder="LastName"><br />
+      </div><br />
+      <input id="btnSubmit" type="submit">
+  </form>
+        </div>
+    </div>
+</div>
+  
